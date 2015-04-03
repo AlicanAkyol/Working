@@ -60,10 +60,8 @@ class CLIENT:
 		except Exception,e:
 			print e
 
-
 clnt = CLIENT('192.168.35.103', 12345)
 clnt.get_file()
-#clnt.send_file('C:\Documents and Settings\cuckoo\Start Menu\Programs\Startup\\agent.py')
 
 
 
