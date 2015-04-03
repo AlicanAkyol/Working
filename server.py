@@ -25,7 +25,7 @@ class SERVER:
 		try:
 			size = str(self.s.recv(16))
 			recvd = ''
-			received_file = open('file_from_vbox','w')
+			received_file = open('file_from_remote','w')
 			while size > len(recvd):
 				data = self.s.recv(1024)
 				received_file.write(data)
