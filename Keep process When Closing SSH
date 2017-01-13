@@ -1,0 +1,5 @@
+tmux
+python yourscript.py
+
+
+ctrl + b + d - > detach tmux
