@@ -1,0 +1,3 @@
+CONVERT(VARCHAR, FORMAT(Date, 'D', 'tr-Tr'), 106)  -- > 4 Temmuz 2017 Salı
+
+item.ToDateTime(SqlDateTime.MinValue.Value,format:"dd.MM.yyyy HH:mm")  -- > 4 Temmuz 2017 11:18
