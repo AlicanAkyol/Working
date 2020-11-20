@@ -20,7 +20,7 @@
       {"user":"username2", "comment":"what a nice2 app", "rate":5},
       {"user":"usernameX", "comment":"what a3 nice app", "rate":5},
       {"user":"usernameY", "comment":"what4 a nice app", "rate":1},
-    ]
+    ],
     "app_privacy": "",
     "app_terms": ""
 }
