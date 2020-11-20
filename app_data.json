@@ -16,5 +16,6 @@
     "app_desc_short": "",
     "app_desc_long": "",
     "app_privacy": "",
-    "app_terms": ""
+    "app_terms": "",
+    "app_comment": [{"user": "username"}]
 }
