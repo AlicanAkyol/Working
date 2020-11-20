@@ -15,12 +15,6 @@
     "app_read_more_logo": "",
     "app_desc_short": "",
     "app_desc_long": "",
-     "app_comment": [
-      {"user":"username", "comment":"what a nice app1", "rate":3},
-      {"user":"username2", "comment":"what a nice2 app", "rate":5},
-      {"user":"usernameX", "comment":"what a3 nice app", "rate":5},
-      {"user":"usernameY", "comment":"what4 a nice app", "rate":1},
-    ],
     "app_privacy": "",
     "app_terms": ""
 }
