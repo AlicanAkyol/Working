@@ -8,14 +8,14 @@ const port = 3001;
 app.use(bodyParser.json());
 
 const RPC_URL = "https://svc.blockdaemon.com/bitcoin/mainnet/native";
-const CAPIKEYT = "zpka_a4f0aff81df04442a8facebbe46690e9_3796406a";
+const API_KEY = "zpka_a4f0aff81df04442a8facebbe46690e9_3796406a";
 const confirmationsThreshold = 6;
 const trackedTransactions = new Set();
 const finalizedTransactionsQueue = [];
 
 const authHeaders = {
   headers: {
-    Authorization: `Bearer ${CAPIKEYT}`,
+    Authorization: `Bearer ${API_KEY}`,
     "Content-Type": "application/json",
   },
 };
